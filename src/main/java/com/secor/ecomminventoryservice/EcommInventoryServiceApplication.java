@@ -1,13 +1,13 @@
-package com.secor.ecommproductservice;
+package com.secor.ecomminventoryservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class EcommProductServiceApplication {
+public class EcommInventoryServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EcommProductServiceApplication.class, args);
+        SpringApplication.run(EcommInventoryServiceApplication.class, args);
     }
 
 }
