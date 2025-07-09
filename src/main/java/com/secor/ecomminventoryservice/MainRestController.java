@@ -20,7 +20,7 @@ public class MainRestController {
     private InventoryRepository inventoryRepository;
 
     @GetMapping
-    public List<InventoryItem> getAllProducts() {
+    public List<InventoryItem> getAllInventory() {
         LOG.info("getAllInventoryItems");
         return inventoryRepository.findAll();
     }
